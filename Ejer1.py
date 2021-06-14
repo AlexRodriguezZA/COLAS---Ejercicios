@@ -10,8 +10,8 @@ palabra = str(input("Ingrese una palabra: "))
 for letra in palabra:
     cola.arribo(letra.lower())
 
-indice = 0
-cantidadDeElementos = cola.tamanio_cola()
+indice = 0;
+cantidadDeElementos = cola.tamanio_cola();
 
 while(indice < cantidadDeElementos):
     x = cola.atencion()
